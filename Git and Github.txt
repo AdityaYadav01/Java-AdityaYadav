@@ -1,0 +1,38 @@
+                                           Git and GitHub
+
+1. Github - It is a code hosting platform for version control and collabration. It helps you and others to work on same projects from anywhere.
+
+2. Git - It is a version control system. It is primarily used for source code management.
+
+3. Version control - It is practice of tracking code and managing changes to software codes.
+
+                                          Git Commands
+
+1. Git init - It is used to create an empty git repository or re-initialize the existing one. create .git repository with sub directories.
+
+2. Git status - It list down all the files which are staged, unstaged or untracked.
+
+3. Git add - It add a file to staging area. To add all the files to staging area we can use "git add -A/ git add ."
+
+4. Git commit - Capture the snapshot of the project currently staged changes. This will open a text editor prompting you to commit message.
+
+5. Git commit -am "Commit Message" - This combination immediately creates a commit of all the staged changes and takes a inline commit message.
+
+6. Git restore --staged "filename" - It will move all the files from staging area to unstaging area.
+
+7. Git log - To review and read history of everything that happens to repository.
+
+8. Git reset - To move the reposiory to previous commit discarding all the changes made after that.
+
+9. Git stash - It will move your modified files to a stack area. So, later in the same or another brach. you will be able to bring them back and see those modification in your project.
+
+10. Git Stash pop - It will pull out most recent stash from the history, makes appropriate changes to files in the local workspace and then delete that entry from stash history.
+
+11. Git Stash Clear - It will delete all the stash entries and may be immposible to recover them
+
+12, Git Stash List - List the stash entry that you currently have.
+
+13. Git Satsh Drop - Remove a single stash entry from the list of stash entries.
+
+
+
