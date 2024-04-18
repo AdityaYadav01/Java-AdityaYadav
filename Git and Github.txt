@@ -34,5 +34,61 @@
 
 13. Git Satsh Drop - Remove a single stash entry from the list of stash entries.
 
+                                              
+					 GITHUB
 
+1. Connecting Remote Repository to Local Repository - Git remote add origin "URL of the repo"-- 'remote' - It means we are working with URl, 'origin' - Name of the URL
+
+2. Show all the remote URLs attached with local repository - Git Remote -v
+
+3. Pushing local repository changes to remote repository - Git push origin master. Here-- 'origin' is the name of the URL. 'master' is the branch name.
+
+
+                                        Git Branches 
+
+Git branch represent an independent line of development. when you want to add a new feature or fix a bug - you spawn a new brach to encapsulate your changes.		
+
+Commands for Git Branch are:
+
+1. Git Branch/ Git Branch --list - List all the branches in your current repository.
+2. Git Branch <branchname> - Creating a new branch
+3. Git Branch -d <branchbname> - It is used to delete specified branch. Git prevent you from deleting branch if you have unmerged changes.
+4. Git Branch -D <branchname> - It is used to force delete specified branch. Even if you have unmerged changes.
+5. Git Branch -m <New Branch Name> - It is used to rename branch.
+6. Git Branch -a - It list down all the remote branches.
+7. Git checkout <branchname> - It allow us to navigate between branches.
+8. git checkout -b <branchname> - It will create a new branch and immediately switch to it
+
+<-HEAD in Git - We think of HEAD as a "current branch". when you switch branches with git checkout, the HEAD revision changes to point to the tip of the new branch.
+
+
+                                        Git Merge
+
+1. Git merge command helps you to take independent line of development created by git branch and integrate into single branch.
+
+2. Merging happens by the pull request. It is a event takes place in software development when a contributor /developer ready to begin the process of merging new code into main branch.
+
+3. Before merging execute git status to check if the HEAD is pointing to the correct receving branch. For Example: "git checkout Master", "git merge <branch name>", "git branch -d <branch name>"
+
+                                       Git Fetch 
+
+Git Fetch is a primary command to download contents from a remote repository into your local repository. It is used to update local repository.
+
+1. git fetch <remote> - It fetch all of the branches from the repository.
+2. git fetch <remote> <branch name> - It fetch only specified branches.
+
+                                       Git Pull 
+
+Git pull is the combination of Git Fetch and Git Merge. It is used to fetch and download content from remote repository & immediately update the local repository to match the content.
+
+git pull <remote> - fetch the specified remote copy of the current branch & immediately merge it into local copy.
+
+
+Fork - A fork is a complete independent copy of a repository that you manage. Fork let youmake changes to current repository without affecting the original repository.
+
+Git clone <URL> - It will create a local copy of a remote repository.
+
+Upsteaming is from where you have forked the repository.
+
+Downstearming is any project that intergrates your work with other works.
 
