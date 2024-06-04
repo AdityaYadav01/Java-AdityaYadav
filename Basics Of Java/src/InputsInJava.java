@@ -8,7 +8,7 @@ public class InputsInJava {
         *  4. System.in - 'System' is the class & 'in' is a variable which denotes that we are taking input from standard input stream (i.e Keyboard)  */
 
         System.out.print("Enter the number: ");
-        int num = in.nextInt();
+        int num = in.nextInt();  // nextInt() is the function used to take integer number as an input.
 
         System.out.println(num + " is the number we have taken as a input from keyboard");
     }
